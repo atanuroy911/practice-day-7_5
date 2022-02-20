@@ -1,0 +1,47 @@
+.logo{
+    padding: 5px;
+    height: 60px;
+    width: 80px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 70px;
+    background-color: #dddddd;
+}
+nav{
+    height: 70px;
+    float: right;
+    background-color: lightslategray;
+}
+nav a{
+    display: block;
+    padding: 25px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+nav li:hover{
+    background-color: #ddd;
+    color: black;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+header ul li{
+    height: 70px;
+    display: inline-block;
+    left: 10px;
+}
+footer{
+    background-color: black;
+}
+.footer-txt, .social-ic{
+    text-align: center;
+    color: white;
+}
